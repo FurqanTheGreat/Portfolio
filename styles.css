@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("436d56f2-5495-41d9-90ba-ca65026b205c.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+    width: 40%;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+nav {
+    margin-left: auto;
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-left: 13%;
+    margin-bottom: 2%;
+}
+
+a {
+    font-family: "Open Sans", serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Proza Libre', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Proza Libre', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.about-me {
+    width: 80%;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.projects {
+    padding: 10px;
+    padding-top: 0;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+    letter-spacing: 1px;
+}
+
+.projects h3 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 5%;
+}
+
+.h {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.skills {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logos i {
+    font-size: 22px;
+    margin-left: 2%;
+}
+
+.logos h3 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.contact {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.contact i {
+    font-size: 36px;
+    margin-right: 2%;
+}
+
+a:hover {
+    opacity: 0.4;
+    transition: ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .logos h3 {
+        display: none;
+    }
+    .logos i {
+        font-size: 36px;
+        margin-right: 5%;
+        margin-bottom: 7%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    nav {
+        display: none;
+        width: 0;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    p {
+        font-size: 17px;
+    }
+}
