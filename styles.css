@@ -53,6 +53,18 @@ a {
     color: aliceblue;
 }
 
+.home {
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.home a {
+    font-size: 24px;
+}
+
 h2 {
     font-family: 'Proza Libre', sans-serif;
     letter-spacing: 2px;
@@ -164,6 +176,7 @@ a:hover {
 
     li {
         margin-left: 0;
+        margin-bottom: 3%;
     }
 
     ul {
